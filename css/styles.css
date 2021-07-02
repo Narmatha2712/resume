@@ -1,0 +1,138 @@
+ body {
+    background-color: darkslategrey !important;
+    padding-top:100px;
+    margin:0;
+    color: white !important;
+ }
+ a{
+   text-decoration: none;
+   color: white !important;
+ }
+ a:hover{
+   text-decoration: none !important;
+   color: white !important;
+ }
+
+@media only screen and (max-width: 700px) {
+ body {
+    background-color: darkslategrey !important;
+    padding-top:20px;
+    margin:0;
+    color: white !important;
+ }
+  
+.navbar #heading {
+font-size: 12px;
+padding-left:3px;
+text-align: left;
+}
+.navbar #heading-image {
+padding-left: 5px;
+margin: 0;
+padding-bottom: 0;
+padding-top: 0;
+}
+.navbar #heading-image img {
+width: 25px;
+height: 25px;
+
+}
+.main-head{
+  margin-top: 80px;
+}
+
+.main-head-text p{
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.main-head-text button {
+  width: 120px;
+  margin:  0 10px 0 20px ;
+  border-radius: 35%;
+}
+.main-head-text h1{
+  font-size: 30px;
+  text-align: center;
+}
+.main-head-img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.main-head-text a{
+  font-size: 15px;
+  position: relative;
+  left: 25%;
+}footer{
+  position:relative;
+  right:0;
+  left: 0;
+  bottom: -40px;
+  font-size: 5px;
+}
+
+}
+
+@media only screen and (min-width: 700px) {
+ 
+ body {
+    background-color: darkslategrey !important;
+    padding-top:20px;
+    margin:0;
+    color: white !important;
+ }
+  
+.navbar #heading {
+font-size: 30px;
+padding-left:10px;
+text-align: left;
+}
+.navbar #heading-image {
+padding-left: 20px;
+
+}
+.navbar #heading-image img {
+width: 50px;
+height: 50px;
+
+}
+.main-head{
+  margin-top: 100px;
+}
+
+.main-head-text p{
+  font-size: 15px;
+  ;
+  padding: 10px;
+}
+.main-head-text {
+  position: relative;
+  right: 40%;
+}
+.main-head-text h1{
+  font-size: 350%;
+
+}
+.main-head-img{
+  position: relative;
+  right: -110%;
+  border-radius: 50%;
+  width: 80%;
+  height: 110%;
+}
+.main-head-text a{
+  font-size: 120%;
+  position: relative;
+  left: 25%;
+}footer{
+  position:relative;
+  right:0;
+  left: 0;
+  bottom: -40px;
+  font-size: 10px;
+}
+footer a {
+  padding: 10px;
+}
+}
