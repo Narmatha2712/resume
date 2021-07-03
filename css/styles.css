@@ -2,26 +2,44 @@
   margin: 0;
   padding:0;
 }
+#navbar-right{
+  margin-right: 40px;
+}
+.navbar-nav li a:hover:not(.active) {
+  color: lightgrey !important;
+}
 
- a{
-   text-decoration: none;
-   color: white !important;
- }
- a:hover{
-   text-decoration: none !important;
-   color: white !important;
- }
-
-@media only screen and (max-width: 700px) and (min-width :591px){
-
+.active {
+  color: white !important;
+}
+.index button:hover{
+  background-image: linear-gradient(to left top,violet,green);
+  
+}
  body {
     
 	font-family:sans-serif !important ;
-	background-color: #33415c !important;
-	color: #f7fff7 !important ;
+	background-color: #2b2d42 !important;
+	color: #f7fff7 !important;
   margin-top:100px !important;
     margin:0;
 }
+.navbar{
+  background-color: #2b2d42;
+}
+ a{
+   text-decoration: none;
+   color: white ;
+ }
+ a:hover{
+   text-decoration: none ;
+   color: white;
+ }
+ .common-abt{
+   padding: 10px;
+ }
+@media only screen and (max-width: 768px) and (min-width :640px){
+
 .total-body{
 	margin:0;
 	padding:0;
@@ -36,9 +54,12 @@
 }
   
 .navbar #heading {
-font-size: 30px;
+font-size: 40px;
 padding-left:10px;
-text-align: left;
+position: fixed;
+top: 5px;
+left: 95px;
+font-family: 'Kanit', sans-serif;
 }
 .navbar #heading-image {
 padding-left: 20px;
@@ -74,6 +95,7 @@ height: 50px;
 .main-head-text h1{
   font-size: 350%;
   text-align: center;
+  font-family: 'Heebo', sans-serif;
 
 }
 .main-head-img{
@@ -96,7 +118,13 @@ footer{
 }
 footer a {
   padding: 10px;
-}
+   text-decoration: none;
+   color: white ;
+ }
+ footer a:hover{
+   text-decoration: none ;
+   color: white;
+ }
 
 hr{
   border-top: 0;
@@ -205,18 +233,45 @@ padding: 40px 40px;
   width: 45%;
 
 
+}
+.index{
+  background-image: url("../images/background.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+ 
+  z-index: 1;
+}
 
+.index h1{
+  position: relative;
+  top: 45%;
+  margin: 0;
+  padding: 0;
+  color:white;
+  z-index: 2;
+  font-size: 45px;
+  font-weight:700;
+  text-align: center;
+}
+.index button{
+  position: relative;
+  left: 40%;
+  top: 52%;
+  font-size: 35px;
+  padding: 15px;
+  background-image: linear-gradient(to right bottom,blue,green);
+  border-radius: 20px;
+  justify-items: center ;
+  transition: 1.5s;
 }
 }
-@media only screen and (max-width: 591px) {
- body {
-	 
-	font-family:sans-serif !important;
-	background-color: #33415c !important;
-	color: #f7fff7 !important ; color: #f7fff7;
-    margin-top: 100px !important ;
- }
 
+@media only screen and (max-width: 600px) {
+ 
 
  .total-body{
 	margin:0;
@@ -235,10 +290,15 @@ padding: 40px 40px;
 margin-bottom: 0;
 }
 .navbar #heading {
-font-size: 15px;
+font-size: 20px;
 text-align: left;
-padding-right: 70px;
+position: fixed;
+top: 10px;
+left: 45px;
+font-family: 'Kanit', sans-serif;
 }
+
+
 .navbar #heading-image {
 
 margin: 0;
@@ -261,6 +321,8 @@ height: 20px;
 .main-head-text h1{
   font-size: 30px;
   text-align: center;
+  font-family: 'Heebo', sans-serif;
+  
 }
 .main-head-img{
   border-radius: 50%;
@@ -292,9 +354,15 @@ footer{
   font-size: 5px;
 }
 footer a {
-  padding: 10px;
-  font-size: 6px;
-}
+  padding: 6px;
+  font-size: 4px;
+  text-decoration: none;
+   color: white ;
+ }
+ footer a:hover{
+   text-decoration: none ;
+   color: white;
+ }
 
 
 hr{
@@ -316,6 +384,13 @@ font-size: 10px;
   font-size: 8px;
 }
 
+.common-abt i{ 
+    font-size: 20px;
+    position: relative;
+    bottom:-20px; 
+    right:25px; 
+    color:#33a1fd; 
+  }
 
 .abt-top h3{
   font-size: 12px;
@@ -411,18 +486,45 @@ padding: 30px 30px;
 .contact-con h6{
   font-size: 10px;
 }
-}
-@media only screen and (min-width: 700px){
- 
- body {
-      
-    font-family:sans-serif;
-    background-color: #33415c !important;
-    color: #f7fff7 !important ;
-  margin-top:100px !important;
-    margin:0;
- }
 
+.index{
+  background-image: url("../images/background.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+ 
+  z-index: 1;
+}
+
+.index h1{
+  position: relative;
+  top: 45%;
+  margin: 0;
+  padding: 0;
+  color:white;
+  z-index: 2;
+  font-size: 20px;
+  font-weight:700;
+  text-align: center;
+}
+.index button{
+  position: relative;
+  left: 40%;
+  top: 52%;
+  font-size: 12px;
+  padding: 10px;
+  background-image: linear-gradient(to right bottom,blue,green);
+  border-radius: 10px;
+  justify-items: center;
+  transition: 1.5s;
+}
+}
+@media only screen and (min-width: 768px){
+ 
+ 
  .total-body{
 	margin:0;
 	padding:0;
@@ -437,9 +539,10 @@ padding: 30px 30px;
 
 
 .navbar #heading {
-font-size: 30px;
+font-size: 40px;
 padding-left:10px;
 text-align: left;
+font-family: 'Kanit', sans-serif;
 }
 .navbar #heading-image {
 padding-left: 20px;
@@ -478,7 +581,7 @@ height: 50px;
 
 .main-head-text h1{
   font-size: 350%;
-
+font-family: 'Heebo', sans-serif;
 }
 .main-head-img{
   position:relative;
@@ -492,17 +595,31 @@ height: 50px;
   font-size: 120%;
   position: relative;
   left: 25%;
+   text-decoration: none;
+   color: white ;
+ }
+ .main-head-text a:hover{
+   text-decoration: none ;
+   color: white;
 }
 footer{
   position:relative;
   right:0;
   left: 0;
   bottom: -120px;
-  font-size: 10px;
+  font-size: 15px;
 }
 footer a {
   padding: 10px;
-}
+  text-decoration: none;
+   color: white ;
+ }
+ footer a:hover{
+   text-decoration: none ;
+   color: white;
+ }
+
+
 
 hr{
   border-top: 0;
@@ -581,6 +698,7 @@ padding: 40px 40px;
 
 
 }
+
 .car-top-br{
   border-left: 1.5px solid white;
   padding:  20px 0 20px 40px;
@@ -618,7 +736,47 @@ padding: 40px 40px;
 
   width: 30%;
 
-
-
 }
+.index{
+  background-image: url("../images/background.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+ 
+  z-index: 1;
+}
+
+.index h1{
+  position: relative;
+  top: 45%;
+  margin: 0;
+  padding: 0;
+  color:white;
+  z-index: 2;
+  font-size: 60px;
+  font-weight:700;
+  text-align: center;
+}
+.index button{
+  position: relative;
+  left: 40%;
+  top: 52%;
+  font-size: 40px;
+  padding: 15px;
+  background-image: linear-gradient(to right bottom,blue,green);
+  border-radius: 20px;
+  justify-items: center ;
+  transition: 1.5s;
+}
+
+.common-abt i{ 
+    font-size: 50px;
+    position: relative;
+    bottom:-40px; 
+    right:60px; 
+    color:#33a1fd; 
+  }
 }
