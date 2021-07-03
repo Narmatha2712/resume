@@ -105,6 +105,11 @@ height: 50px;
   font-size: 120%;
   position: relative;
   left: 35%;
+  color:white;
+}
+.main-head-text a:hover{
+  color:white;
+  text-decoration: none;
 }
 footer{
   position:relative;
@@ -122,7 +127,13 @@ footer a {
    text-decoration: none ;
    color: white;
  }
-
+.footer1{
+  position:relative;
+  right:0;
+  left: 0;
+  bottom: -160px;
+  font-size: 10px;
+}
 hr{
   border-top: 0;
   border-bottom: 5px;
@@ -135,6 +146,7 @@ hr{
 .all-heads h3{
 font-size: 50px;
 padding-left: 40px;
+font-family:poppins;
 }
 
 .all-heads p{
@@ -345,8 +357,12 @@ height: 20px;
   font-size: 15px;
   position: relative;
   left: 32%;
+  color:white;
 }
-
+.main-head-text a:hover{
+  text-decoration: none;
+  color:white;
+}
 .main-head-text button{
   width: 30%;
   margin:10px 9.5%;
@@ -375,7 +391,13 @@ footer a {
    color: white;
  }
 
-
+.footer1{
+  position:relative;
+  right:0;
+  left: 0;
+  bottom: -160px;
+  font-size: 5px;
+}
 hr{
   border-top: 0;
   border-bottom: 5px;
@@ -384,8 +406,9 @@ hr{
 .all-heads-2{
   background-color:rgb(199, 120, 252);
 }
-.all-heads h1{
+.all-heads h3{
 font-size: 30px;
+font-family: poppins;
 }
 
 .all-heads p{
@@ -393,28 +416,28 @@ font-size: 10px;
 }
 .abt-top p{
   font-size: 8px;
+  margin-left: 15px;
 }
 
 .common-abt i{ 
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     bottom:-20px; 
-    right:25px; 
+    right:8px; 
     color:#33a1fd; 
   }
 
 .abt-top h3{
   font-size: 12px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
   font-family:'Kanit', sans-serif ;
 }
 .abt-top{
 padding: 10px;
 
 }
-.abt{
-  padding: 10px;
-}
+
 .abt-mid{
   padding: 10px;
 }
@@ -635,7 +658,13 @@ footer a {
    color: white;
  }
 
-
+.footer1{
+  position:relative;
+  right:0;
+  left: 0;
+  bottom: -160px;
+  font-size: 10px;
+}
 
 hr{
   border-top: 0;
@@ -646,6 +675,7 @@ hr{
 .all-heads h3{
 font-size: 50px;
 padding-left: 40px;
+font-family:poppins;
 }
 .all-heads-2{
   background-color:rgb(199, 120, 252);
@@ -796,10 +826,10 @@ padding: 40px 40px;
  }
 
 .common-abt i{ 
-    font-size: 50px;
+    font-size: 45px;
     position: relative;
     bottom:-40px; 
-    right:60px; 
+    right:70px; 
     color:#33a1fd; 
   }
 }
