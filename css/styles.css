@@ -243,7 +243,6 @@ padding: 40px 40px;
   height: 100vh;
   display: inline-block;
   z-index: 1;
-  opacity: 0.6;
 }
 
 .index h1{
@@ -257,6 +256,7 @@ padding: 40px 40px;
   font-size: 42px;
   font-weight:bold;
   text-align: center;
+  color: black;
 }
 .index button{
   position: absolute;
@@ -268,7 +268,8 @@ padding: 40px 40px;
   border-radius: 15px;
   justify-items: center ;
   transition: 1.5s;
-  color:black
+  color:black;
+  font-weight: 700;
 }
 .common-abt i{ 
     font-size: 35px;
@@ -383,11 +384,11 @@ height: 20px;
   border: 10px solid #7c7c7c;
   margin-bottom: 40px;
 }
-.main-head-text a{
-  font-size: 15px;
-  position: relative;
-  left: 32%;
-  color:white;
+.main-head-text a {
+    font-size: 15px;
+    position: relative;
+    left: 29%;
+    color: white;
 }
 .main-head-text a:hover{
   text-decoration: none;
@@ -453,14 +454,13 @@ font-size: 10px;
   font-size: 12px;
   margin-left: 15px;
 }
-
-.common-abt i{ 
-    font-size: 15px;
+.common-abt i {
+    font-size: 26px;
     position: relative;
-    bottom:-20px; 
-    right:8px; 
-    color:#FFCCC9; 
-  }
+    bottom: -30px;
+    right: 25px;
+    color: #FFCCC9;
+}
 
 .abt-top h3{
   font-size: 22px;
@@ -474,7 +474,7 @@ padding: 10px;
 }
 
 .abt-mid{
-  padding: 10px;
+  margin: 10px 20px;
 }
 .abt-mid p {
 font-size: 15px;
@@ -580,38 +580,37 @@ color: grey;
   width: 100%;
   height: 100vh;
   display: inline-block;
- opacity: 0.6;
+
   z-index: 1;
 } 
+.index h1 {
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    z-index: 2;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
 
-.index h1{
-  position: absolute;
-  top: 42%;
-  left: 24%;
-  margin: 0;
-  padding: 0;
-  color:whitesmoke;
-  z-index: 2;
-  font-size: 16.2px;
-  font-weight:700;
-  text-align: center;
 }
 .index button{
-  position: absolute;
-  left: 41%;
-  top: 62%;
-  font-size: 8px;
-  font-weight: 500;
-  padding: 7px 10px;
-  background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
-  border-radius: 6px;
-  justify-items: center;
-  transition: 1.5s;
-  color:black;
-}
-
- .common-abt{
-   margin: 10px 20px;
+position: absolute;
+    left: 39%;
+    top: 52%;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 7px 10px;
+    background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
+    border-radius: 6px;
+    justify-items: center;
+    transition: 1.5s;
+    color: black;
+} common-abt {
+    margin: 10px 10px 10px 30px;
  }
 
 #bot-progress{
@@ -875,7 +874,6 @@ color: white;
   height: 100vh;
   display: inline-block;
   z-index: -1;
-  opacity: 0.6;
 }
 
 .index h1{
@@ -889,6 +887,7 @@ color: white;
   font-size: 60px;
   font-weight:700;
   text-align: center;
+  color: black;
 }
 .index button{
   position: absolute;
@@ -901,6 +900,7 @@ color: white;
   justify-items: center ;
   transition: 1.5s;
   color: black;
+  font-weight: 700;
 }
  .common-abt{
    margin: 10px 25px;
