@@ -7,8 +7,8 @@
 }
 .navbar-nav li a:hover:not(.active) {
   color: lightgrey !important;
-}
 
+}
 .active {
   color: white !important;
 }
@@ -140,7 +140,7 @@ hr{
   background-color: lightgrey;
 }
 .all-heads-2{
-  background-color:rgb(199, 120, 252);
+  background-color:#006d77;
 
 }
 .all-heads h3{
@@ -221,7 +221,7 @@ padding: 40px 40px;
 }
 .abt-top-h1{
   padding-left: 30px;
-  width: 150px;
+  width: 165px;
   padding-top: 10px;
 }
 .abt-top h3{
@@ -233,19 +233,6 @@ padding: 40px 40px;
   padding-bottom: 10px;
 }
 
-.contact-con{
-  padding: 35px 15px 35px 15px;
-  background-color: linen;
-  color: darkslategrey;
-  text-align: center;
-  border-radius: 50px;
-  position:relative;
-  right: -35%;
-
-  width: 45%;
-
-
-}
 .index{
   background-image: url("../images/background.jpg");
   background-position: fixed;
@@ -263,7 +250,7 @@ padding: 40px 40px;
   top: 45%;
   margin: 0;
   padding: 0;
-  color:white;
+  color:whitesmoke;
   z-index: 2;
   font-size: 45px;
   font-weight:700;
@@ -271,26 +258,51 @@ padding: 40px 40px;
 }
 .index button{
   position: relative;
-  left: 40%;
+  left: 35%;
   top: 52%;
-  font-size: 35px;
-  padding: 15px;
-  background-image: linear-gradient(to right bottom,blue,green);
-  border-radius: 20px;
+  font-size: 25px;
+  padding: 20px 35px;
+  background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
+  border-radius: 15px;
   justify-items: center ;
   transition: 1.5s;
+  color:black
 }
 .common-abt i{ 
     font-size: 35px;
     position: relative;
     bottom:-40px; 
     right:50px; 
-    color:lightgrey; 
+    color:#FFCCC9; 
   }
   
  .common-abt{
    margin: 10px 35px;
  }
+ .contact-con{
+  padding:10px 20px 10px 60px;
+  background-color:#006d77;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  position:relative;
+  border: 2px solid grey;
+  width: 300px;
+  font-family: poppins;
+  text-align: left;
+  font-size: 16px;
+  left: 30%;
+}
+.contact-con h3{
+  padding-top: 20px;
+  font-size: 25px;
+}
+.contact-con i{
+  font-size: 25px;
+  position: absolute;
+  left: 25px;
+}
+
  
 #bot-progress{
     margin-top: 40px;
@@ -408,7 +420,7 @@ hr{
   background-color: lightgrey;
 }
 .all-heads-2{
-  background-color:rgb(199, 120, 252);
+  background-color:#006d77;
 }
 .all-heads h3{
 font-size: 30px;
@@ -428,7 +440,7 @@ font-size: 10px;
     position: relative;
     bottom:-20px; 
     right:8px; 
-    color:lightgray; 
+    color:#FFCCC9; 
   }
 
 .abt-top h3{
@@ -509,21 +521,27 @@ padding: 30px 30px;
 
 }
 .contact-con{
-  padding: 35px 15px 35px 15px;
-  background-color: linen;
-  color: darkslategrey;
+  padding:10px 20px 10px 60px;
+  background-color:#006d77;
+  color: white;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 30px;
   position:relative;
-  right: -20%;
-  width: 60%;
-
-} 
-.contact-con h3{
-  font-size: 20px;
+border: 2px solid grey;
+  width: 200px;
+  font-family: poppins;
+  text-align: left;
+  font-size: 8px;
+  left: 22%;
 }
-.contact-con h6{
-  font-size: 10px;
+.contact-con h3{
+  padding-top: 20px;
+  font-size: 12px;
+}
+.contact-con i{
+  font-size: 25px;
+  position: absolute;
+  left: 25px;
 }
 
 .index{
@@ -543,7 +561,7 @@ padding: 30px 30px;
   top: 45%;
   margin: 0;
   padding: 0;
-  color:white;
+  color:whitesmoke;
   z-index: 2;
   font-size: 20px;
   font-weight:700;
@@ -553,12 +571,14 @@ padding: 30px 30px;
   position: relative;
   left: 40%;
   top: 52%;
-  font-size: 12px;
-  padding: 10px;
-  background-image: linear-gradient(to right bottom,blue,green);
-  border-radius: 10px;
+  font-size: 8px;
+  font-weight: 500;
+  padding: 7px 10px;
+  background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
+  border-radius: 6px;
   justify-items: center;
   transition: 1.5s;
+  color:black;
 }
 
  .common-abt{
@@ -685,7 +705,7 @@ padding-left: 40px;
 font-family:poppins;
 }
 .all-heads-2{
-  background-color:rgb(199, 120, 252);
+  background-color:#006d77;
 }
 .all-heads p{
 font-size: 20px;
@@ -773,7 +793,7 @@ padding: 40px 40px;
 
 .abt-top-h1{
   padding-left: 30px;
-  width: 150px;
+  width: 170px;
   padding-top: 10px;
 }
 
@@ -783,16 +803,25 @@ padding: 40px 40px;
 }
 
 .contact-con{
-  padding: 35px 15px 35px 15px;
-  background-color: linen;
-  color: darkslategrey;
+  padding: 35px 100px 35px 80px;
+  background-color:#006d77;
+  color: white;
   text-align: center;
   border-radius: 50px;
   position:relative;
-  right: -35%;
-
-  width: 30%;
-
+border: 2px solid grey;
+  width: 400px;
+  font-family: poppins;
+  text-align: left;
+  left: 30%;
+}
+.contact-con h3{
+  padding-top: 20px;
+}
+.contact-con i{
+  font-size: 35px;
+  position: absolute;
+  left: 25px;
 }
 .index{
   background-image: url("../images/background.jpg");
@@ -811,7 +840,7 @@ padding: 40px 40px;
   top: 45%;
   margin: 0;
   padding: 0;
-  color:white;
+  color:whitesmoke;
   z-index: 2;
   font-size: 60px;
   font-weight:700;
@@ -819,14 +848,15 @@ padding: 40px 40px;
 }
 .index button{
   position: relative;
-  left: 40%;
+  left: 42%;
   top: 52%;
-  font-size: 40px;
-  padding: 15px;
-  background-image: linear-gradient(to right bottom,blue,green);
-  border-radius: 20px;
+  font-size: 25px;
+  padding: 25px 38px;
+  background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
+  border-radius: 15px;
   justify-items: center ;
   transition: 1.5s;
+  color: black;
 }
  .common-abt{
    margin: 10px 25px;
@@ -837,7 +867,7 @@ padding: 40px 40px;
     position: relative;
     bottom:-40px; 
     right:70px; 
-    color:lightgray; 
+    color:#FFCCC9; 
   }
 
 }
