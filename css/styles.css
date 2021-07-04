@@ -80,15 +80,16 @@ height: 50px;
 .main-head-text button{
   width: 30%;
   margin: 10px 9.5% ;
-  border-radius: 30px;
-  border: 2px solid blue;
-
+  border-radius: 30px; background-color: #264653;
+  border: 1px solid white;
+  color:white;
 }
 .main-head-text button:hover{
   transition: 1s;
-  
+  background-color: white;
+  color: #264653;
+  border: 1px solid #264653;
 }
-
 .main-head-text h1{
   font-size: 350%;
   text-align: center;
@@ -233,7 +234,7 @@ padding: 40px 40px;
   padding-bottom: 10px;
 }
 
-.index{
+.index-1{
   background-image: url("../images/background.jpg");
   background-position: fixed;
   background-size: cover;
@@ -241,25 +242,26 @@ padding: 40px 40px;
   width: 100%;
   height: 100vh;
   display: inline-block;
- 
   z-index: 1;
+  opacity: 0.6;
 }
 
 .index h1{
-  position: relative;
-  top: 45%;
+  position: absolute;
+  top: 43%;
+  left: 20%;
   margin: 0;
   padding: 0;
   color:whitesmoke;
   z-index: 2;
-  font-size: 45px;
-  font-weight:700;
+  font-size: 42px;
+  font-weight:bold;
   text-align: center;
 }
 .index button{
-  position: relative;
-  left: 35%;
-  top: 52%;
+  position: absolute;
+  left: 38%;
+  top: 60%;
   font-size: 25px;
   padding: 20px 35px;
   background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
@@ -292,6 +294,7 @@ padding: 40px 40px;
   text-align: left;
   font-size: 16px;
   left: 30%;
+   margin-top:120px
 }
 .contact-con h3{
   padding-top: 20px;
@@ -302,6 +305,16 @@ padding: 40px 40px;
   position: absolute;
   left: 25px;
 }
+
+.contact-con a{
+  color: white;
+  text-decoration: none;
+}
+.contact-con a:hover{
+text-decoration: none;
+color: white;
+}
+
 
  
 #bot-progress{
@@ -353,12 +366,12 @@ height: 20px;
 }
 
 .main-head-text p{
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   padding: 10px;
 }
 .main-head-text h1{
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   
@@ -368,6 +381,7 @@ height: 20px;
   width: 200px;
   height: 200px;
   border: 10px solid #7c7c7c;
+  margin-bottom: 40px;
 }
 .main-head-text a{
   font-size: 15px;
@@ -383,10 +397,15 @@ height: 20px;
   width: 30%;
   margin:10px 9.5%;
   border-radius: 30px;
-  border: 2px solid blue;
+  background-color: #264653;
+  border: 1px solid white;
+  color:white;
 }
 .main-head-text button:hover{
   transition: 1s;
+  background-color: white;
+  color: #264653;
+  border: 1px solid #264653;
   
 }
 footer{
@@ -394,11 +413,11 @@ footer{
   right:0;
   left: 0;
   bottom: -40px;
-  font-size: 5px;
+  font-size: 10px;
 }
 footer a {
   padding: 6px;
-  font-size: 4px;
+  font-size: 8px;
   text-decoration: none;
    color: white ;
  }
@@ -412,7 +431,7 @@ footer a {
   right:0;
   left: 0;
   bottom: -160px;
-  font-size: 5px;
+  font-size: 10px;
 }
 hr{
   border-top: 0;
@@ -431,7 +450,7 @@ font-family: poppins;
 font-size: 10px;
 }
 .abt-top p{
-  font-size: 8px;
+  font-size: 12px;
   margin-left: 15px;
 }
 
@@ -444,7 +463,7 @@ font-size: 10px;
   }
 
 .abt-top h3{
-  font-size: 12px;
+  font-size: 22px;
   padding-bottom: 5px;
   padding-left: 15px;
   font-family:'Kanit', sans-serif ;
@@ -458,19 +477,19 @@ padding: 10px;
   padding: 10px;
 }
 .abt-mid p {
-font-size: 8px;
+font-size: 15px;
 margin: 0;
 padding: 0;
 margin-top: 15px;
 }
 
 .abt-mid h3{
-  font-size: 15px;
+  font-size: 22px;
 }
 
 
 .car-top p{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .car-top-h1{
@@ -479,7 +498,7 @@ margin-top: 15px;
 }
 
 .car-top-h1 h2{
-  font-size: 25px;
+  font-size: 28px;
   padding-bottom: 5px;
   
 
@@ -487,7 +506,7 @@ margin-top: 15px;
 
 
 .car-top h4{
-  font-size: 16px;
+  font-size: 20px;
   
 }
 .car-top{
@@ -527,24 +546,33 @@ padding: 30px 30px;
   text-align: center;
   border-radius: 30px;
   position:relative;
-border: 2px solid grey;
+  border: 2px solid grey;
   width: 200px;
   font-family: poppins;
   text-align: left;
   font-size: 8px;
   left: 22%;
+   margin-top:100px
 }
 .contact-con h3{
   padding-top: 20px;
-  font-size: 12px;
+  font-size: 20px;
 }
 .contact-con i{
   font-size: 25px;
   position: absolute;
   left: 25px;
 }
+.contact-con a{
+  color: white;
+  text-decoration: none;
+}
+.contact-con a:hover{
+text-decoration: none;
+color: grey;
+}
 
-.index{
+.index-1{
   background-image: url("../images/background.jpg");
   background-position: fixed;
   background-size: cover;
@@ -552,25 +580,26 @@ border: 2px solid grey;
   width: 100%;
   height: 100vh;
   display: inline-block;
- 
+ opacity: 0.6;
   z-index: 1;
-}
+} 
 
 .index h1{
-  position: relative;
-  top: 45%;
+  position: absolute;
+  top: 42%;
+  left: 24%;
   margin: 0;
   padding: 0;
   color:whitesmoke;
   z-index: 2;
-  font-size: 20px;
+  font-size: 16.2px;
   font-weight:700;
   text-align: center;
 }
 .index button{
-  position: relative;
-  left: 40%;
-  top: 52%;
+  position: absolute;
+  left: 41%;
+  top: 62%;
   font-size: 8px;
   font-weight: 500;
   padding: 7px 10px;
@@ -620,7 +649,7 @@ height: 50px;
 
 }
 .main-head{
-  margin-top: 110px;
+  margin-top: 200px;
 }
 
 .main-head-text p{
@@ -633,12 +662,15 @@ height: 50px;
   width: 140px;
   margin: 0 40px ;
   border-radius: 30px;
-  border: 2px solid blue;
-
+  background-color: #264653;
+  border: 1px solid white;
+  color:white;
 }
 .main-head-text button:hover{
   transition: 1s;
-  
+  background-color: white;
+  color: #264653;
+  border: 1px solid #264653;
 }
 .main-head-text {
   position: relative;
@@ -814,6 +846,7 @@ border: 2px solid grey;
   font-family: poppins;
   text-align: left;
   left: 30%;
+  margin-top:120px;
 }
 .contact-con h3{
   padding-top: 20px;
@@ -823,7 +856,17 @@ border: 2px solid grey;
   position: absolute;
   left: 25px;
 }
-.index{
+
+.contact-con a{
+  color: white;
+  text-decoration: none;
+}
+.contact-con a:hover{
+text-decoration: none;
+color: white;
+}
+
+.index-1{
   background-image: url("../images/background.jpg");
   background-position: fixed;
   background-size: cover;
@@ -831,25 +874,26 @@ border: 2px solid grey;
   width: 100%;
   height: 100vh;
   display: inline-block;
- 
-  z-index: 1;
+  z-index: -1;
+  opacity: 0.6;
 }
 
 .index h1{
-  position: relative;
-  top: 45%;
+  position: absolute;
+  top: 42%;
+  left:20%;
   margin: 0;
   padding: 0;
   color:whitesmoke;
-  z-index: 2;
+  z-index: 1;
   font-size: 60px;
   font-weight:700;
   text-align: center;
 }
 .index button{
-  position: relative;
+  position: absolute;
   left: 42%;
-  top: 52%;
+  top: 60%;
   font-size: 25px;
   padding: 25px 38px;
   background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
