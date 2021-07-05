@@ -248,8 +248,7 @@ padding: 40px 40px;
 .index h1{
   position: absolute;
   top: 43%;
-  left: 10%;
-  right:10%;
+  left: 20%;
   margin: 0;
   padding: 0;
   color:whitesmoke;
@@ -262,8 +261,8 @@ padding: 40px 40px;
 .index button{
   position: absolute;
   left: 38%;
-  right:38%;
-  top: 53%;
+  right: 38%;
+  top: 60%;
   font-size: 25px;
   padding: 20px 35px;
   background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
@@ -613,7 +612,8 @@ color: grey;
 .index h1 {
     position: absolute;
     top: 43%;
-    left: 13%;
+    left: 10%;
+    right:10%;
     margin: 0;
     padding: 0;
     color: whitesmoke;
@@ -626,7 +626,8 @@ color: grey;
 }
 .index button{
 position: absolute;
-    left: 39%;
+    left: 38%;
+    right:38%;
     top: 55%;
     font-size: 18px;
     font-weight: 700;
@@ -916,7 +917,8 @@ color: white;
 .index h1{
   position: absolute;
   top: 42%;
-  left:20%;
+  left:14%;
+  right: 14%;;
   margin: 0;
   padding: 0;
   color:whitesmoke;
