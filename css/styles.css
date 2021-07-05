@@ -248,7 +248,8 @@ padding: 40px 40px;
 .index h1{
   position: absolute;
   top: 43%;
-  left: 20%;
+  left: 10%;
+  right:10%;
   margin: 0;
   padding: 0;
   color:whitesmoke;
@@ -261,7 +262,8 @@ padding: 40px 40px;
 .index button{
   position: absolute;
   left: 38%;
-  top: 60%;
+  right:38%;
+  top: 53%;
   font-size: 25px;
   padding: 20px 35px;
   background-image: linear-gradient(to right bottom,#accbe1,#7c98b3);
