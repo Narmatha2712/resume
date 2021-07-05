@@ -611,7 +611,7 @@ color: grey;
 .index h1 {
     position: absolute;
     top: 43%;
-    left: 5%;
+    left: 13%;
     margin: 0;
     padding: 0;
     color: whitesmoke;
@@ -625,7 +625,7 @@ color: grey;
 .index button{
 position: absolute;
     left: 39%;
-    top: 52%;
+    top: 55%;
     font-size: 18px;
     font-weight: 700;
     padding: 7px 10px;
