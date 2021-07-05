@@ -310,7 +310,7 @@ padding: 40px 40px;
 .contact-con p {
   margin-top:0;
 }
-.contact-con .santhosh{
+.contact-con .mobile{
    font-size: 38px;
   position: absolute;
   left: 35px;
@@ -578,7 +578,7 @@ padding: 30px 30px;
   margin-top: 7px;
 }
 
-.contact-con .santhosh{
+.contact-con .mobile{
   font-size: 28px;
   position: absolute;
   left: 27px;
@@ -872,7 +872,7 @@ padding: 40px 40px;
     left: 30%;
     margin-top: 120px;
 }
-.contact-con .santhosh{
+.contact-con .mobile{
      font-size: 48px;
     position: absolute;
     left: 40px;
